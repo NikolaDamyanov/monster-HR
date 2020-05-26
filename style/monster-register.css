@@ -1,0 +1,23 @@
+.form-input {
+    background-color: cornsilk;
+    font-style: italic;
+    font-size: 25px;
+    width   : 100%;
+    margin  : 5px 0;
+    padding : 5px;
+    border: solid 5px black;
+}
+
+.wrapper {
+    margin      : auto;
+    margin-top  : 100px;
+    width       : 500px;
+}
+.button {
+    width: 50%;
+    text-decoration-color: blanchedalmond;
+    background-color: cadetblue;
+    margin  : 5px 0;
+    padding : 5px;
+    border: solid 5px black;
+}
