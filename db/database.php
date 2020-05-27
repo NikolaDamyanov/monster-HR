@@ -10,13 +10,6 @@ namespace db {
 
         private static $instance   = null;
 
-        // Singleton : Designe pattern 
-        // * check online for more information 
-        
-        /**
-         * 
-         * @return \db\Database
-         */
         public static function getInstance() {
 
             if(!Database::$instance) {
@@ -85,12 +78,7 @@ namespace db {
 
             return $this->executeError;
         }
-        
-        /**
-         * Return the last inserted id
-         * @author Mihail Petrov
-         * @return number
-         */
+
         public function lastInsertedId() {
             return $this->dbConnection->insert_id;
         }
