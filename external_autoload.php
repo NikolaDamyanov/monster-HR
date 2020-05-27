@@ -9,8 +9,6 @@ function redirect($address) {
 
 spl_autoload_register(function($element) {
 
-    // 1. explode
-    // str_replace
     $collection = explode('\\', $element);
 
     $newPath = ".";
