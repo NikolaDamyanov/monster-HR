@@ -11,7 +11,7 @@ class Config {
             return array(
                 'db_host' => 'localhost',
                 'db_user' => 'root',
-                'db_name' => 'cms_test',
+                'db_name' => 'mosterhr_test',
                 'db_pass' => ''
             );            
         }
@@ -21,7 +21,7 @@ class Config {
             return array(
                 'db_host' => 'localhost',
                 'db_user' => 'root',
-                'db_name' => 'cms_prod',
+                'db_name' => 'monsterhr_prod',
                 'db_pass' => ''
             );            
         }        
@@ -29,7 +29,7 @@ class Config {
         return array(
             'db_host' => 'localhost',
             'db_user' => 'root',
-            'db_name' => 'cms',
+            'db_name' => 'monsterhr',
             'db_pass' => ''
         );
     }
