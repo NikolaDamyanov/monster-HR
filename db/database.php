@@ -1,4 +1,5 @@
 <?php
+
 namespace db {
 
     class Database {
@@ -30,8 +31,6 @@ namespace db {
 
             $this->dbConnection = new \mysqli($dbHost, $dbUser, $dbPass, $dbName);
         }
-        
-        // TODO : consider checking the value of result collection 
         public function query($query) {
 
             $this->lastExecutedQuery = $query;
@@ -78,6 +77,7 @@ namespace db {
 
             return $this->executeError;
         }
+        
 
         public function lastInsertedId() {
             return $this->dbConnection->insert_id;
