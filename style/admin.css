@@ -1,0 +1,21 @@
+#admin-header-placeholder {
+    display: block;
+    width: auto;
+}
+
+#admin-editor {
+    display: block;
+    margin-top: 100px;
+    width   : 500px;
+    margin  : auto;
+}
+.form-input {
+    display: block;
+    width: 40%;
+    height: 25px;
+}
+.form-textarea {
+    display: block;
+    width: 50%;
+    height: 50px;
+}
