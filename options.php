@@ -11,10 +11,10 @@
 <div class="header">
         <h1 class="title">ЧУДОВИЩНИ HR УСЛУГИ</h1>
         <div class="navbar">
-            <a href="http://nkld.eu/monster HR/index.php">Начало</a>
-            <a href="http://nkld.eu/monster HR/registeremployers.php">Регистрация работодатели</a>
-            <a href="http://nkld.eu/monster HR/register.php">Регистрация потребители</a>
-            <a href="http://nkld.eu/monster HR/login.php">ВХОД</a>
+            <a href="http://monster HR/index.php">Начало</a>
+            <a href="http://monster HR/registeremployers.php">Регистрация работодатели</a>
+            <a href="http://monster HR/register.php">Регистрация потребители</a>
+            <a href="http://monster HR/login.php">ВХОД</a>
         </div>
     </div>
     <br>
@@ -38,19 +38,5 @@
                        Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания<br>
                        като Aldus PageMaker, който включва различни версии на Lorem Ipsum. <br>
     </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
