@@ -1,3 +1,10 @@
+<?php
+include './external_autoload.php';
+
+(new controllers\LoginController())->index();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +25,22 @@
     </div>    
 <br>
 
+<?php 
+            
+            if(\session\Session::checkFlashMessage('error_message')) {
+                
+                echo '<div class="message error">';
+                echo \session\Session::getFlashMessage('error_message');
+                echo '</div>';                
+            }
+        ?>  
+
 <div class="wrapper">
             <form method="POST" name="registration">
                 <input class="form-input" type="text" placeholder="E-mail" name="email">
                 <input class="form-input" type="text" placeholder="Password" name="password">               
                 <input class="button" type="submit" name="ВХОД" value="ВХОД">
-                <input type="hidden" name="tokken" value="1">
+                <input type="hidden" name="post_tokken" value="1">
             </form>
         </div>
 
