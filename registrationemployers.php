@@ -20,8 +20,8 @@ include './external_autoload.php';
     <div class="header">
         <h1 class="title">ЧУДОВИЩНИ HR УСЛУГИ-РЕГИСТРАЦИЯ РАБОТОДАТЕЛИ</h1>
         <div class="navbar">
-            <a href="http://nkld.eu/monster HR/index.php">Начало</a>           
-            <a href="http://nkld.eu/monster HR/registration.php">Регистрация потребители</a>
+            <a href="http://monster HR/index.php">Начало</a>           
+            <a href="http://monster HR/registration.php">Регистрация потребители</a>
         </div>
 
         <div class="wrapper">
