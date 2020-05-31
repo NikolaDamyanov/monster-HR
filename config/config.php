@@ -11,7 +11,7 @@ class Config {
             return array(
                 'db_host' => 'localhost',
                 'db_user' => 'root',
-                'db_name' => 'mosterhr_test',
+                'db_name' => 'monsterhr_test',
                 'db_pass' => ''
             );            
         }
