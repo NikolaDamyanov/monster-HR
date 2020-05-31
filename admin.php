@@ -12,15 +12,23 @@ include './external_autoload.php';
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="/monster HR/style/admin.css">
+<link rel="stylesheet" href="/monster HR/style/style.css">
+
 <body>
-<div id="admin-header">
-            <div id="admin-header-placeholder">
-                <ul>
-                    <!-- <li><a href="logout.php">Log out</a></li> -->
-                    <li><a href="admin.php?action=logout">Log out</a></li>
-                </ul>
-            </div>
+
+<div class="header">
+        <h1 class="title">ЧУДОВИЩНИ HR УСЛУГИ</h1>
+        <div class="navbar">
+            <a href="http://nkld.eu/monster HR/index.php">Начало</a>
+            <a href="http://nkld.eu/monster HR/options.php">Възможности</a>
+            <a href="http://nkld.eu/monster HR/registrationemployers.php">Регистрация работодатели</a>
+            <a href="http://nkld.eu/monster HR/registration.php">Регистрация потребители</a>
+        <ul>       
+            <li><a href="admin.php?action=logout">Log out</a></li>
+        </ul>           
         </div>
+</div>
+
         <?php
         if(\session\Session::checkFlashMessage('create_blog_post')) {
                 
